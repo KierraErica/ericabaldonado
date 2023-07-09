@@ -1,0 +1,139 @@
+body{    
+    background: rgb(181, 150, 73);
+    font-family: montserrat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(dey.jpg);
+}
+.navbar-dark {
+	background-color: transparent !important;
+}
+.navbar-dark .navbar-brand {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.navbar-dark .navbar-brand span {
+	background: rgb(214, 214, 171);
+	color: #000;
+	padding: 5px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+}
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(dey.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.banner-text p {
+	color: #fff;
+	letter-spacing: 2px;
+}
+.banner-btn a {
+	border: 1px solid #fff;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 50px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	transition: all .6s;
+}
+.banner-btn a:hover {
+	background: rgb(155, 155, 116);
+	color: #000;
+}
+/*text animation*/
+
+.text-area {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.text-area span {
+	color: rgb(177, 166, 94);
+	opacity: 0;
+	transform: translate(0, -100px) rotate(360deg) scale(0);
+	animation: animate 5s forwards;
+}
+section {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 20px;
+    text-align: end;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.section-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+.section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid rgb(207, 179, 85);
+}
+.content{
+    font-size: 18px;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: rgb(177, 148, 80);
+}
+.socials i {
+	margin-right: 25px;
+}
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: rgb(188, 153, 94);
+}
